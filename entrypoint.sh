@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 export DB_DIALECT=MYSQL
 export DB_URL='jdbc:mysql://mysql_db:3306/lavagna?useSSL=false&allowPublicKeyRetrieval=true'

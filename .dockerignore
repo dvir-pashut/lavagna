@@ -1,4 +1,5 @@
 demo.Dockerfile
+Dockerfile.doc
 docker-compose.yml
 Dockerfile
 README_EXECUTABLE_WAR.txt

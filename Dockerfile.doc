@@ -1,5 +1,6 @@
-FROM maven:3.8.6-openjdk-8 AS builder
+FROM maven:3.6.1-jdk-8
+
 WORKDIR /app
 COPY . .
-RUN mvn clean stampo:build
-ENTRYPOINT [ "mvn stampo:serve" ] 
+RUN mvn stampo:build
+ENTRYPOINT ["mvn", "stampo:serve"]

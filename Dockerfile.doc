@@ -1,4 +1,4 @@
 FROM maven:3.8.6-openjdk-8 AS builder
 WORKDIR /app
-COPY ./src/main/stampo /stampo
+COPY . .
 RUN mvn clean stampo:build

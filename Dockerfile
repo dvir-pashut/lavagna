@@ -9,5 +9,5 @@ RUN mvn verify
 FROM openjdk:8u212-jre-alpine3.9
 WORKDIR  /app
 COPY --from=builder /app/target ./target
-COPY --from=builder /app/entrypoint.sh entrypoint.sh
+COPY entrypoint.sh entrypoint.sh
 ENTRYPOINT [ "./entrypoint.sh" ]

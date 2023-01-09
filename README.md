@@ -1,4 +1,4 @@
-dockerised this app and amde it use 1) mysql via docker continer 2) an rds aws database
+dockerised this app and made it use 1) mysql via docker continer 2) an rds aws database
 + app got deployd on the aws on ec2
 
 Lavagna

@@ -1,7 +1,7 @@
 # Docker file for demo purposes
 
 # Alpine - so download is fast
-FROM openjdk:8-jre-alpine
+FROM openjdk:20-ea-31-jdk-slim
 
 EXPOSE 8080
 

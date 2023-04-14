@@ -347,7 +347,7 @@
     <!-- -->
     <properties>
         <org.apache.logging.log4j.version>2.11.1</org.apache.logging.log4j.version>
-        <org.springframework.version>5.1.2.RELEASE</org.springframework.version>
+        <org.springframework.version>5.2.24.RELEASE</org.springframework.version>
         <org.eclipse.jetty.version>9.4.12.v20180830</org.eclipse.jetty.version>
         <com.fasterxml.jackson.version>2.9.7</com.fasterxml.jackson.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -839,7 +839,7 @@
                 <!-- <datasource.url>jdbc:log4jdbc:hsqldb:mem:lavagna</datasource.url> -->
                 <datasource.url>jdbc:hsqldb:mem:lavagna</datasource.url>
                 <datasource.username>sa</datasource.username>
-                <datasource.password />
+                <datasource.password/>
                 <spring.profiles.active>dev</spring.profiles.active>
             </properties>
         </profile>
@@ -852,7 +852,7 @@
                 <datasource.dialect>HSQLDB</datasource.dialect>
                 <datasource.url>jdbc:hsqldb:mem:lavagna</datasource.url>
                 <datasource.username>sa</datasource.username>
-                <datasource.password />
+                <datasource.password/>
                 <spring.profiles.active>prod</spring.profiles.active>
             </properties>
         </profile>
@@ -867,7 +867,7 @@
                 <!-- <datasource.url>jdbc:log4jdbc:mysql://localhost:3306/lavagna</datasource.url> -->
                 <datasource.url>jdbc:mysql://localhost:3306/lavagna</datasource.url>
                 <datasource.username>root</datasource.username>
-                <datasource.password />
+                <datasource.password/>
                 <spring.profiles.active>dev</spring.profiles.active>
             </properties>
         </profile>
